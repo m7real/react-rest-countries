@@ -1,0 +1,9 @@
+.menu a {
+    text-decoration: none;
+    color: white;
+    margin: auto 15px;
+}
+
+.menu a:hover {
+    color: bisque
+}

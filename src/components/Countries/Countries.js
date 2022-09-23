@@ -12,8 +12,10 @@ const Countries = () => {
   }, []);
   return (
     <div>
-      <h1>Hello from Countries.</h1>
-      <h4>Available Countries: {countries.length}</h4>
+      <div className="countries-count bg-light my-4 p-3 rounded  mx-auto">
+        <h2>Hello from Countries</h2>
+        <h4>Available Countries: {countries.length}</h4>
+      </div>
       <div className="countries-container">
         {countries.map((country) => (
           <Country country={country} key={country.cca3}></Country>
